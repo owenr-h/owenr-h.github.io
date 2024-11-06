@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    border: #ff0000 solid 2px;
+    height: 100%;
+}
+body{
+    border: #00ff00 solid 2px;
+    height: 50%;
+}
+.container{
+    border: #0000ff solid 2px;
+}
