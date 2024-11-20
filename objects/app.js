@@ -7,7 +7,7 @@ const malgames=[
     {name:'paper jam bros.',release:'3/12/2015',ign:5.9}
 ]
 const mal=document.getElementById('marioandluigi')
-for(i=0;i<5;i++){
+for(i=0;i<malgames.length;i++){
     const newgame=document.createElement('tr')
     newgame.innerHTML=`<td>${malgames[i].name}</td><td>${malgames[i].release}</td><td>${malgames[i].ign}</td>`
     console.log(newgame)
