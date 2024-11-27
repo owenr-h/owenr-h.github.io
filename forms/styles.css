@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+form.form-example {
+    display: table;
+  }
+  
+  div.form-example {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+table{
+    border: 1px solid rebeccapurple;
+    padding: 2px;
+}
+th{
+    border: 2px solid #339966;
+}
+td{
+    padding: 5px;
+    border: 1px solid #996633;
+}
